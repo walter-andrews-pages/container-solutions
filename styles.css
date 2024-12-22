@@ -298,9 +298,30 @@ margin-bottom: 15px;
 }
 
 .whole-header{
-  background: radial-gradient(#dddbdb , #85aeeb);
+  width: 100vw;
+  position: relative;
   margin-bottom: 70px;
+  background-color: #8f8f8f;
 }
+
+.whole-header::before{
+  background-image: url("Other Images/head-back-image.jpg");
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+  opacity: .4;
+  content: '';
+}
+
+
+.whole-header h1,.logo,.menu,.column2{
+  isolation: isolate;
+}
+
+.whole-header .column2{
+  flex-basis: 100%;
+}
+
 
 /*-------------search by zip------------------*/
 
