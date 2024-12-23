@@ -581,9 +581,10 @@ h4{
 /*-------Delivery Guide Sec----------*/
 
 .delivery-guide{
-  background: radial-gradient(#dddbdb , #6296e6);
+  background: linear-gradient(#dddbdb , #9ddff526
+  );
   margin-bottom: 110px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 
 }
 #project-vid{
